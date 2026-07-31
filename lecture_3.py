@@ -6,7 +6,16 @@
 # print(len(marks))
 # print(marks[3])
 
-student=["shadhir",22,55.5]
-print(student[0])                #mutable
-student[0]="ramu"
-print(student)
+# student=["shadhir",22,55.5]
+# print(student[0])                #mutable
+# student[0]="ramu"
+# print(student)
+
+#list slicing
+# marks=(98,76,44,55,33,77,)
+# print(marks[1:4])
+# print(marks[1:])
+# print(marks[:5])
+# print(marks[-3:-1])          #negative slicing
+
+#list methods 
