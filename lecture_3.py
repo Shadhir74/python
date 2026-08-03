@@ -18,4 +18,16 @@
 # print(marks[:5])
 # print(marks[-3:-1])          #negative slicing
 
-#list methods 
+##   list methods 
+# list = [33,34,67,88,]
+# list.append(2)                 #append
+# print(list)
+
+list=[33,55,22,64,21,16,5]
+# list.sort(absent)
+# print(absent)
+
+print(list.sort(reverse=True))
+
+
+
