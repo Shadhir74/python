@@ -23,11 +23,30 @@
 # list.append(2)                 #append
 # print(list)
 
-list=[33,55,22,64,21,16,5]
-# list.sort(absent)
+# list=[33,55,22,64,21,16,5]
+# list.sort(absent)                #ascending
 # print(absent)
 
-print(list.sort(reverse=True))
+# print(list.sort(reverse=True))    #descending
+# print(list)
 
+# list = ['s','h','a','d','h','i','r']   #ascending
+# print(list.sort(reverse=True))
+# # print(list.sort())
+# print(list)                    
 
+# list = ['s','m','a','s','l']             #reverse
+# print(list.reverse())
+# print(list)
 
+# list = ['c','f','g','w','a']             #insert
+# list.insert(2,4)                         #index 2 
+# print(list)
+
+# list =['2','3','5','1','0']
+# print(list.remove('2'))                    #removing
+# print(list)
+
+list = ['2','4','1','7']
+list.pop(2)
+print(list)
