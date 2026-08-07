@@ -44,9 +44,40 @@
 # print(list)
 
 # list =['2','3','5','1','0']
-# print(list.remove('2'))                    #removing
+# print(list.remove('2'))                    #removing first occurence
 # print(list)
 
-list = ['2','4','1','7']
-list.pop(2)
-print(list)
+# list = ['2','4','1','7']                     #removing index 
+# list.pop(2)
+# print(list)
+
+#tuples
+
+# tup=()                              
+# print(tup)
+# print(type(tup))
+
+# tup = (2,3,43,2,1,)      #finding index
+# print(tup[2])
+# print(tup[4])
+# tup[1]=1                 #cant add coz its immutable
+
+# tup = (1,)
+# print(type(tup))          #adding , to b tuple
+
+# tup = (1)                 #or else it bcoms dt
+# print(type(tup))
+
+#slicing
+# tup=(3,4,2,4,5,67,6,88,64,323,3,3,)
+# print(tup[2:6])
+# print(tup[:7])
+
+#tup methods
+
+# tup =(1,2,4,5,5,3,2,2,)
+# print(tup.count(2))          #to count no. of ele
+
+# tup=(23,52,2,55,3,3,5,43,2)            #it shows index of first occurense like 3 comes in 4 ind
+# print(tup.index(3))
+
